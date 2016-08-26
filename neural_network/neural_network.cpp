@@ -3,7 +3,7 @@
 // Application: Neural Network Class
 // Class:       NeuralNetwork
 // Version:	1.0
-// Date:	2015
+// Date:	2014
 // Author:	Rohin Gosling
 //
 // Description:
