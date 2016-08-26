@@ -192,7 +192,7 @@ namespace common
 		void           initialize             ( vector<int> network, double weight, double bias );
 		void           set_weights            ( double weight );
 		void           randomize_weights      ( double min, double max );		
-		void           set_bias_vectors		  ( double bias_term );
+		void           set_bias_vectors	      ( double bias_term );
 		void           randomize_bias_vectors ( double min, double max );
 		vector<double> compute_network        ( vector<double> x );
 		double         back_propagation       ( vector<vector<double>> x, vector<vector<double>> y, double maxE, double epoch_max, long long time_out );
