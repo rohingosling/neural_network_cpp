@@ -1,10 +1,10 @@
 ﻿//--------------------------------------------------------------------------------------------------------------------------------------
-// Project:		Generic Console Application Platform (G-CAP).
+// Project:	Generic Console Application Platform (G-CAP).
 // Application:	N/A
 // Class:       StaticUtility
-// Version:		1.3
+// Version:     1.3
 // Date:        2015-07-10
-// Author:		Rohin Gosling
+// Author:	Rohin Gosling
 //
 // Description:
 //
@@ -31,12 +31,12 @@ class StaticUtility
 
 public:
 
-	using Natural   = unsigned long;									// N: n Є {  0 ≤ x ≤ ∞  }
-	using Integer   = long;												// Z: n Є { -∞ ≤ x ≤ ∞  }
-	using Real      = double;											// R:
-	using Complex	= struct { Real r; Real i; };						// C:
+	using Natural   = unsigned long;					// N: n Є {  0 ≤ x ≤ ∞  }
+	using Integer   = long;							// Z: n Є { -∞ ≤ x ≤ ∞  }
+	using Real      = double;						// R:
+	using Complex	= struct { Real r; Real i; };				// C:
 	using Alignment = enum { ALIGN_LEFT, ALIGN_CENTER, ALIGN_RIGHT };	// Text alignment.
-	using TokenList = vector <string>;									// List of token strings.
+	using TokenList = vector <string>;					// List of token strings.
 
 
 	//----------------------------------------------------------------------------------------------------------------------------------
