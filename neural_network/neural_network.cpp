@@ -193,18 +193,18 @@ namespace common
 	//
 	//   Example 1:
 	//
-    //     Given: Neural network architecture vector, network = [ 2 2 1 ]
+        //     Given: Neural network architecture vector, network = [ 2 2 1 ]
 	//
-    //     Then:  One input layer, with 2 input units, and 2 output units.    
-    //            One output layer, with 2 input units, and 1 output unit.
+        //     Then:  One input layer, with 2 input units, and 2 output units.    
+        //            One output layer, with 2 input units, and 1 output unit.
 	//
 	//   Example 2:
 	//
-    //     Given: Neural network architecture vector, network = [ 4 8 6 2 ]
+        //     Given: Neural network architecture vector, network = [ 4 8 6 2 ]
 	//
-    //     Then:  One input layer, with 4 input units, and 8 output units.
-    //            One hidden layer, with 8 input units, and 6 output units.
-    //            One output layer, with 6 input units, and 2 output units.
+        //     Then:  One input layer, with 4 input units, and 8 output units.
+        //            One hidden layer, with 8 input units, and 6 output units.
+        //            One output layer, with 6 input units, and 2 output units.
 	//
 	//   Note:
 	//
