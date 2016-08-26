@@ -1,5 +1,5 @@
 //--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-// Project:	Coomon Artificial Inteligence Library
+// Project:	Common Artificial Inteligence Library
 // Application: N/A
 // Class:       NeuralNetwork
 // Version:	1.0
