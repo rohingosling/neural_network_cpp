@@ -1,10 +1,10 @@
 //--------------------------------------------------------------------------------------------------
-// Project:	    Generic Console Application Platform (G-CAP).
+// Project:	Generic Console Application Platform (G-CAP).
 // Application: N/A
 // Class:       N/A
-// Version:	    1.1
-// Date:	    2014
-// Author:	    Rohin Gosling
+// Version:	1.1
+// Date:	2014
+// Author:	Rohin Gosling
 //
 // Description:
 //
