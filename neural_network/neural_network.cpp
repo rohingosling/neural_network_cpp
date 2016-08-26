@@ -1,10 +1,10 @@
 ﻿//--------------------------------------------------------------------------------------------------------------------------------------------------------------
-// Project:	    N/A
+// Project:	N/A
 // Application: Neural Network Class
 // Class:       NeuralNetwork
-// Version:	    1.0
-// Date:	      2015
-// Author:	    Rohin Gosling
+// Version:	1.0
+// Date:	2015
+// Author:	Rohin Gosling
 //
 // Description:
 //
