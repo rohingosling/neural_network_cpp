@@ -1,10 +1,10 @@
 //--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-// Project:	    N/A
-// Application: Neural Network Class
-// Class:	    NeuralNetwork
-// Version:	    1.0
-// Date:	    2015
-// Author:	    Rohin Gosling
+// Project:	Coomon Artificial Inteligence Library
+// Application: N/A
+// Class:       NeuralNetwork
+// Version:	1.0
+// Date:	2014 (C++), ported from 2001 (Java), ported from 1994 (C)
+// Author:	Rohin Gosling
 //
 // Description:
 //
