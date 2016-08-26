@@ -1,10 +1,10 @@
 //--------------------------------------------------------------------------------------------------------------------------------------
-// Project:		Generic Console Application Platform (G-CAP).
+// Project:     Console Application Platform (G-CAP).
 // Application:	N/A
 // Class:       StaticUtility
-// Version:		1.3
+// Version:     1.3
 // Date:        2015-07-10
-// Author:		Rohin Gosling
+// Author:	Rohin Gosling
 //
 // Description:
 //
@@ -106,14 +106,14 @@ string StaticUtility::time_to_string ( long long time, bool hours_enabled, bool 
 	
 	// Compile time string.		
 	
-	if ( hours_enabled )										time_string_stream << setfill ( PADDING ) << setw ( WIDTH_HMS ) << hours;		
-	if ( hours_enabled && minutes_enabled )						time_string_stream << DELIMITER_HMS;
+	if ( hours_enabled )						time_string_stream << setfill ( PADDING ) << setw ( WIDTH_HMS ) << hours;		
+	if ( hours_enabled && minutes_enabled )				time_string_stream << DELIMITER_HMS;
 	if ( hours_enabled && !minutes_enabled && seconds_enabled )	time_string_stream << DELIMITER_HMS;
-	if ( minutes_enabled )										time_string_stream << setfill ( PADDING ) << setw ( WIDTH_HMS ) << minutes;
-	if ( minutes_enabled && seconds_enabled )					time_string_stream << DELIMITER_HMS;
-	if ( seconds_enabled )										time_string_stream << setfill ( PADDING ) << setw ( WIDTH_HMS ) << seconds;
-	if ( milliseconds_enabled )									time_string_stream << DELIMITER_MS;
-	if ( milliseconds_enabled )									time_string_stream << setfill ( PADDING ) << setw ( WIDTH_MS )  << milliseconds;
+	if ( minutes_enabled )						time_string_stream << setfill ( PADDING ) << setw ( WIDTH_HMS ) << minutes;
+	if ( minutes_enabled && seconds_enabled )			time_string_stream << DELIMITER_HMS;
+	if ( seconds_enabled )						time_string_stream << setfill ( PADDING ) << setw ( WIDTH_HMS ) << seconds;
+	if ( milliseconds_enabled )					time_string_stream << DELIMITER_MS;
+	if ( milliseconds_enabled )					time_string_stream << setfill ( PADDING ) << setw ( WIDTH_MS )  << milliseconds;
 
 	// Convert string stream to string, and return to caller.
 
