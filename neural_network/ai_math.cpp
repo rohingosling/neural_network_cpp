@@ -1,10 +1,10 @@
 ﻿//--------------------------------------------------------------------------------------------------
-// Project:	    N/A
+// Project:	N/A
 // Application: All AI and Machine Learning applications.
-// Class:	    AIMath
-// Version:	    1.0
-// Date:	    2015
-// Author:	    Rohin Gosling
+// Class:	AIMath
+// Version:	1.0
+// Date:	2015
+// Author:	Rohin Gosling
 //
 // Description:
 //
