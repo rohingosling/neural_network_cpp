@@ -1,10 +1,10 @@
 //--------------------------------------------------------------------------------------------------
-// Project:	    Entelect 100k Challenge.
+// Project:	Entelect 100k Challenge.
 // Application: Neural Network test application.
-// Class:	    TestApplication
-// Version:	    1.0
-// Date:	    2015
-// Author:	    Rohin Gosling
+// Class:	TestApplication
+// Version:	1.0
+// Date:	2015
+// Author:	Rohin Gosling
 //
 // Description:
 //
