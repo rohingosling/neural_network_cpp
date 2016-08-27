@@ -1,10 +1,10 @@
-//--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-// Project:	Common Artificial Inteligence Library
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------
+// Project:     Common Artificial Inteligence Library
 // Application: N/A
 // Class:       NeuralNetwork
-// Version:	1.0
-// Date:	2014 (C++), ported from 2001 (Java), ported from 1994 (C)
-// Author:	Rohin Gosling
+// Version:     1.0
+// Date:        2014 (C++), ported from 2001 (Java), ported from 1994 (C)
+// Author:      Rohin Gosling
 //
 // Description:
 //
