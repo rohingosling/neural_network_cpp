@@ -1,5 +1,5 @@
 ﻿//--------------------------------------------------------------------------------------------------------------------------------------------------------------
-// Project:     Common Artificial Inteligence Library
+// Project:     Common Artificial Intelligence Library
 // Application: N/A
 // Class:       NeuralNetwork
 // Version:     1.0
