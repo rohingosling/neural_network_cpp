@@ -1,5 +1,5 @@
 ﻿//--------------------------------------------------------------------------------------------------------------------------------------------------------------
-// Project:     Common Artificial Inteligence Library
+// Project:     Common Artificial Intelligence Library
 // Application: N/A
 // Class:       NeuralNetwork
 // Version:     1.0
@@ -194,17 +194,17 @@ namespace common
 	//
 	//   Example 1:
 	//
-    //     Given: Neural network architecture vector, network = [ 2 2 1 ]
+	//     Given: Neural network architecture vector, network = [ 2 2 1 ]
 	//
-    //     Then:  One input layer, with 2 input units, and 2 output units.    
-    //            One output layer, with 2 input units, and 1 output unit.
+	//     Then:  One input layer, with 2 input units, and 2 output units.    
+	//            One output layer, with 2 input units, and 1 output unit.
 	//
 	//   Example 2:
 	//
-    //     Given: Neural network architecture vector, network = [ 4 8 6 2 ]
+	//     Given: Neural network architecture vector, network = [ 4 8 6 2 ]
 	//
-    //     Then:  One input layer, with 4 input units, and 8 output units.
-    //            One hidden layer, with 8 input units, and 6 output units.
+	//     Then:  One input layer, with 4 input units, and 8 output units.
+	//            One hidden layer, with 8 input units, and 6 output units.
 	//            One output layer, with 6 input units, and 2 output units.
 	//
 	//   Note:
@@ -441,8 +441,8 @@ namespace common
 
 		for ( int i = 0; i < layer_count; i++ )
 		{
-			y = this->neural_network [ i ].compute_layer ( x );		// The out put of layer i, given input x, is y.
-			x = y;													// The input of layer i+1, will be the output of layer i, therfore, x = y.
+			y = this->neural_network [ i ].compute_layer ( x );    // The out put of layer i, given input x, is y.
+			x = y;                                                 // The input of layer i+1, will be the output of layer i, therfore, x = y.
 		}
 
 		// Return final output vector to caller.		
@@ -534,7 +534,7 @@ namespace common
 	{
 		// while terminating event not raised, do
 
-			// For all {x,y) in training_data, do
+			// For all (x,y) in training_data, do
 
 				// 1. Feed forward.
 				//    y' = compute_network ( x );
@@ -657,20 +657,48 @@ namespace common
 	//--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 	// Function:
 	//
-	// - function_name
+	// - to_string
 	//
 	// Description:
 	//
-	// - Function description.
+	// - Returns a human readable string representation of the neural networks meta-data and status, for analysis and debugging.
 	//
 	// Arguments:   
 	//
-	// - x
-	//   Description of argument x.
+	// - precision
+	//   Floating point presission of real values in the output.
+	//
+	// - header_row_enabled
+	//   Specifies whether tabulated data should include header rows. 
+	//
+	// - activation_function_enabled
+	//   Specifies whether to include activation function information or now.
 	//
 	// Return Value:
 	//
-	// - Description of return value.
+	// - Formatted string representation of the neural networks meta-data, weight values and status.
+	//
+	//   Example:
+	//
+	//   - For a 3 layer ANN of architecture [ 8 4 3 ] and floating point presision 3, the out put string would looks as folows.
+	//
+	//     Architecture = [ 8 4 2 ]
+	//
+	//     Layer 0: Input Layer
+	//
+	//         Y       X0      X1      X2      X3      X4      X5      X6      X7
+	//         ------- ------- ------- ------- ------- ------- ------- ------- --------
+	//         y0      0.035   0.913   0.500   0.000   0.000   0.001   0.320   0.350
+	//         y1      1.000   0.850   0.450   0.400   1.000   0.900   0.950   0.913
+	//         y2      0.450   0.913   0.500   0.000   0.000   0.001   0.320   0.350
+	//         y3      1.000   0.565   1.000   0.525   0.000   0.000   0.010   0.025
+	//
+	//     Layer 1: Output Layer
+	//
+	//         Y       X0      X1      X2      X3
+	//         ------- ------- ------- ------- -------
+	//         y0      0.035   0.913   0.500   0.010
+	//         y1      0.300   1.350   0.500   0.225  
 	//
 	// Pre-Conditions:
 	//
